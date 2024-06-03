@@ -3,9 +3,10 @@ import { z } from "zod";
 
 export const env = createEnv({
     server: {
-        DATABASE_URL: z.string().url(),
-        OPEN_AI_API_KEY: z.string().min(1),
-        NEXT_UNSPlASH_KEY: z.string().min(1),
+        API_URL: z.string().url(),
+        UNSPlASH_KEY: z.string().min(1),
+    },
+    client: {
     },
     experimental__runtimeEnv: {
     }

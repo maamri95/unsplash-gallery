@@ -74,3 +74,14 @@
       @apply bg-background text-foreground;
     }
   }
+.dialog-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%; /* Ajustez cette valeur selon vos besoins */
+  max-width: 80vw; /* Ajustez cette valeur selon vos besoins */
+  max-height: 80vh; /* Ajustez cette valeur selon vos besoins */
+}
